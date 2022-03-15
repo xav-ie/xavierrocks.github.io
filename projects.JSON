@@ -1,21 +1,33 @@
 {
-    "longTermProjects": [{
+    "longTermProjects": [
+	{
+        "name": "Tabby",
+        "date": "Febrary 2022 - May 2022",
+            "desc": "Ever wanted pets in your Emacs tab bar? Well with Tabby, now you can! Tabby adds virtual pets or GIFs to the Emacs tab bar. It is still a work in progress, but it hopes to emulate the Corgi mode that Google Colab and Kaggle offers.",
+            "technologiesUsed": ["ELisp", "SVG", "GIF"],
+        "role": "Creator",
+        "url": "https://github.com/xav-ie/tabby",
+        "imageURL": "tabby/corgi.png"
+	},
+	{
         "name": "Dichopter® Project",
-        "date": "August 2018 - May 2019",
+        "date": "August 2018 - May 2021",
         "desc": "The Dichopter® Project aims to provide the user with hardware and software tools to help them explore dichoptic vision – that is, two eyed or binocular vision where two images are presented to the left and right eye separately. The Dichopter Project allows people to expolore 3D vision and perception of other physics simulations. I enjoyed this project because it required me to learn how to optimize web pages when dealing with lots of content. ",
         "technologiesUsed": ["JavaScript", "GitHub", "Progressive Web Apps", "Caching", "p5.js", "Materialize CSS"],
         "role": "Lead Developer",
         "url": "https://dichopter.com",
         "imageURL": "dichopter/viewer.jpg"
-    }, {
+	},
+	{
         "name": "TravelAnywhere",
-        "date": "May 2020 - Present",
+        "date": "May 2020 - May 2021",
         "desc": "TravelAnywhere is an experiment and study of the travelling salesman problem, which is 'What is the most efficient way to go through a group of points of interest?'. I experimented with multiple algorithms for this including brute force, combinatorial, and genetic! Currently, it is the works to use an algorithm proposed in 1983 by Dumas et al.",
         "technologiesUsed": ["React", "Javascript", "Google Maps API"],
         "role": "Lead Developer",
         "url": "https://github.com/xav-ie/tsp_react",
         "imageURL": "TravelAnywhere/path.png"
-    }, {
+	},
+	{
         "name": "BostonHacks.io Website",
         "date": "January 2020 - Present",
         "desc": "BostonHacks is Boston's largest hackathon of 500+ hackers. I created and designed the landing page, SVGs, and animations used in the site. It uses Firebase as its backend and is a new project by the BostonHacks team.",
@@ -23,7 +35,8 @@
         "role": "Front-end Developer",
         "url": "https://bostonhacks.io",
         "imageURL": "BostonHacks/pinata.gif"
-    }, {
+	},
+	{
         "name": "BUILDS.cc Website",
         "date": "October 2020 - November 2020",
         "desc": "BUILDS is a Boston University hackerspace and club that is core to the BU Computer Science experience. The site is a simple Create-React-App site I built in a couple of days using styled-components, react-spring, react-router-dom, and flexbox grid. I had a a lot of fun on this because this is the fastest I have been able to make something so substantial.",
@@ -31,7 +44,8 @@
         "role": "Lead Developer",
         "url": "https://builds.cc",
         "imageURL": "BUILDS/builds.png"
-    }, {
+	},
+	{
         "name": "Beaglenet AWS Backend",
         "date": "May 2020 - Present",
         "desc": "Beaglenet is a startup aiming to improve the world through occupancy monitoring. Founded by my friends and I, we have already gotten contracts with Boston University. My role in this project was to connect the monitoring devices to the AWS DynamoDB database and get them to properly record the desired information through AWS Lambda functions.",
