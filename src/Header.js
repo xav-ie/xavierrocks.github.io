@@ -15,25 +15,20 @@ const Header = ()=>{
 		</div>
 	    </header>
 	    <navbar className="row no-margin middle-xs shadow">
-		<ul className="header-links no-padding no-margin col-xs-12 col-sm-8 col-md-6 col-lg-5 row around-xs">
-		    <li className="col">
-			<a href="#projects">
-			    #projects
-			</a>
-		    </li>
-		    <li className="col">
+		<ul className="header-links no-margin">
+		    <li>
 			<a href="#about_me">
 			    #about_me
 			</a>
 		    </li>
-		    <li className="col">
-			<a href="#contact_me">
-			    #contact_me
+		    <li>
+			<a href="#projects">
+			    #projects
 			</a>
 		    </li>
-		    <li className="col">
-			<a href="/r.pdf" target="_blank">
-			    /resumé.pdf
+		    <li>
+			<a href="#doodles">
+			    #doodles
 			</a>
 		    </li>
 

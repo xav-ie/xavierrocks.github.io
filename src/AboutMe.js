@@ -22,14 +22,6 @@ const AboutMe = ()=>{
 			    Hello! I'm Xavier and I love programming. I am president of <a href="https://builds.cc">BUILDS</a>. I am also working on the front-ends of <a href="https://bostonhacks.io">BostonHacks</a> and <a href="https://hackbeanpot.com/">HackBeanpot</a>. My interests include SVGs & animating them,  React, animating with <a href="https://www.react-spring.io/">React Spring</a>, Amazon AWS, and containerizing applications with Docker.
 			</p>
 			<p>My resumé can be found at <a href="/r.pdf">/resumé.pdf</a>.</p>
-		    </div>
-		</div>
-	    </div>
-
-	    <div className="col-xs-12 section" id="contact_me">
-		<div className="row">
-		    <div className="col-xs-12">
-			<h2>Contact me</h2>
 			<p>
 			    The best way to reach me is via email: <a href="mailto:xruiz@bu.edu">xruiz@bu.edu</a>
 			</p>
@@ -39,6 +31,7 @@ const AboutMe = ()=>{
 		    </div>
 		</div>
 	    </div>
+
 	</div>
     );
 }

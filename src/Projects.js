@@ -102,7 +102,7 @@ const Projects = ()=>{
 		{longTermProjects.map((p,i) => <Project key={p.name} project={p}/>)} 
 	    </ul>
 	</div>
-	<div className="section">
+	<div id="doodles" className="section">
 	    <h2>Art and Doodles</h2>
 	    <ul className="row no-bullets">
 		{artAndDoodles.map((p,i) => <Project key={p.name} project={p}/>)} 
