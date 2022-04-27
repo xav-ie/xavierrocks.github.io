@@ -1,0 +1,35 @@
+.imageWrapper {
+    padding: 0 !important;
+}
+
+.imageWrapper a {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+}
+
+.imageWrapper img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* .project { */
+/*     margin: 1em 0; */
+/*     padding: 1em ; */
+/* } */
+
+.project a {
+    padding: 1em 1.5em;
+    margin-left: -0.75em;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.project {
+    padding: 1em !important;
+}
+.card {
+    padding: 1em;
+}
