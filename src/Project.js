@@ -15,7 +15,7 @@ const Project = ({project})=>{
 		<p className="technologies">
 		    {project.technologiesUsed.map((t,i) => <span key={t}>{(i ? ', ' : '')+t}</span>)}
 		</p>
-		<a className="shadow round" href={project.url}>{project.url}</a>
+		<a href={project.url}>{project.url}</a>
 	    </div>
 		</div>
 	</li>
