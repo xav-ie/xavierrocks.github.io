@@ -1,14 +1,15 @@
 import './Header.css';
+import ThemeToggle from './ThemeToggle';
 
 const Header = ()=>{
     return (
 	<>
 	    <header>
-		<a href="/" className="logo">
+		<div className="logo">
 		    <object id="heart" type="image/svg+xml" data="/heart.svg">
 			Your browser does not support SVG
 		    </object>
-		</a>
+		</div>
 		<div className="title">
 		    <h1>Xavier Ruiz</h1>
 		    <h2>Software Developer</h2>
@@ -35,6 +36,10 @@ const Header = ()=>{
 		</ul>
 		
 	    </navbar>
+	    <div className="theme-toggle-wrapper">
+		<ThemeToggle/>
+	    </div>
+
 	</>
     );
 }

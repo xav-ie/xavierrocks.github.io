@@ -1,10 +1,20 @@
-:root {
+
+[data-theme="light"]{
     --foreground: #4A4A4A;
     --background: #eaeaea;
     --alt: #4D7BF2;
-    --highlight: #efefef;
     --shadow: #d3d3d3;
+    --highlight: #efefef;
 }
+[data-theme="dark"] {
+    --foreground: #eaeaea;
+    --background: #151515;
+    --alt: #5A88FF;
+    --shadow: #000;
+    --highlight: #202020;
+}
+
+
 
 body {
   margin: 0;

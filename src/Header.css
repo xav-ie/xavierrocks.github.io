@@ -50,3 +50,13 @@ navbar a {
 	justify-content: start;
     }
 }
+
+
+.theme-toggle-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 1em;
+    flex-direction: row;
+    margin-top: 1em;
+}
