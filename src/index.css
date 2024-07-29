@@ -1,20 +1,14 @@
-
-[data-theme="light"]{
-    --foreground: #4A4A4A;
-    --background: #eaeaea;
-    --alt: #4D7BF2;
-    --shadow: #d3d3d3;
-    --highlight: #efefef;
-}
-[data-theme="dark"] {
-    --foreground: #eaeaea;
-    --background: #151515;
-    --alt: #5A88FF;
-    --shadow: #000;
-    --highlight: #202020;
+:root {
+  --foreground: #ddd05d;
+  --background: #260f3e;
+  --alt: #51d136;
+  --shadow: #1c0c24;
+  --highlight: #3a1f54;
 }
 
-
+html {
+  background-color: var(--background);
+}
 
 body {
   margin: 0;

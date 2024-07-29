@@ -1,5 +1,4 @@
 import './Header.css';
-import ThemeToggle from './ThemeToggle';
 
 const Header = ()=>{
     return (
@@ -34,12 +33,7 @@ const Header = ()=>{
 		    </li>
 
 		</ul>
-		
 	    </navbar>
-	    <div className="theme-toggle-wrapper">
-		<ThemeToggle/>
-	    </div>
-
 	</>
     );
 }
