@@ -18,12 +18,14 @@ const ThemeToggle = () => {
 	}
     }
     useEffect(() => {
-	if(localStorage.getItem('theme')) {
-	    updateTheme(localStorage.getItem('theme'));
-	} else {
-	    const windowTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
-	    updateTheme(windowTheme);
-	}
+    if(typeof window !== 'undefined') {
+      if(localStorage.getItem('theme')) {
+          updateTheme(localStorage.getItem('theme'));
+      } else {
+          const windowTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
+          updateTheme(windowTheme);
+      }
+    }
     }, []);
     
     return (<button onClick={toggleTheme} className="shadow round">{"Switch to "+(theme==='light'?'dark':'light')+" theme"}</button>);
